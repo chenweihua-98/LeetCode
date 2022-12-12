@@ -22,6 +22,10 @@ public class OddTimesNum {
         return res;
     }
 
+    public void da(){
+        System.out.println("commit");
+    }
+
     //假设现在存在一个数组，有两种数出现了奇数次，找出那两个数,将所有数相加得到的数为a^b,且因为ab不相同，所以将这个数用2二进制表示必有至少一个位置上是1
     public static void  OddTimesNum2(int[] arr){
         int res = 0;
