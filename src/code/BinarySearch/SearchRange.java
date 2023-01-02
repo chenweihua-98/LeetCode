@@ -20,6 +20,7 @@ public class SearchRange {
         return new int[]{l,r-1};
     }
 
+    //找左边界 找第一个>=目标值的数的下标
     private int search(int[] nums, int target) {
         int l = 0;
         int r = nums.length-1;
